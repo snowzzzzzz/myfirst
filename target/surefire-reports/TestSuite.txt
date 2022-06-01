@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 93.985 s <<< FAILURE! - in TestSuite
+loginTest(com.wsn.testcases.BssCase)  Time elapsed: 8.457 s  <<< FAILURE!
+java.lang.AssertionError: expected [林敏1] but found [林敏]
+	at com.wsn.testcases.BssCase.loginTest(BssCase.java:30)
+

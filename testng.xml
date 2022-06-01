@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="lemonmall" >
+    <listeners>
+        <listener class-name="com.wsn.listener.RetryListener"></listener>
+        <listener class-name="com.wsn.listener.TestResultListener"></listener>
+    </listeners>
+    <test name="业务">
+        <classes>
+            <class name="com.wsn.testcases.BssCase"/>
+        </classes>
+    </test>
+
+</suite>

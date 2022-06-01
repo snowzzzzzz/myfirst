@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="93.985" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\作业\frame01\target\test-classes;D:\作业\frame01\target\classes;D:\project\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\project\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\project\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\project\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\project\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\project\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\project\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\project\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\project\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\project\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\project\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\project\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\project\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\project\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\project\repository\io\qameta\allure\allure-testng\2.12.1\allure-testng-2.12.1.jar;D:\project\repository\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;D:\project\repository\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;D:\project\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\project\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\project\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\project\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\project\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\project\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\14111\AppData\Local\Temp\surefire4183007830502553256\surefirebooter3784332227876826140.jar C:\Users\14111\AppData\Local\Temp\surefire4183007830502553256 2022-05-07T10-56-08_077-jvmRun1 surefire6640141208455793636tmp surefire_05201209121000908362tmp"/>
+    <property name="surefire.test.class.path" value="D:\作业\frame01\target\test-classes;D:\作业\frame01\target\classes;D:\project\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\project\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\project\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\project\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\project\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\project\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\project\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\project\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\project\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\project\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\project\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\project\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\project\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\project\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\project\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\project\repository\io\qameta\allure\allure-testng\2.12.1\allure-testng-2.12.1.jar;D:\project\repository\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;D:\project\repository\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;D:\project\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\project\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\project\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\project\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\project\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\project\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="D:\作业\frame01\target/allure-results"/>
+    <property name="user.home" value="C:\Users\14111"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="basedir" value="D:\作业\frame01"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\14111\AppData\Local\Temp\surefire4183007830502553256\surefirebooter3784332227876826140.jar;D:\project\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="14111"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\project\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\14111\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="D:\作业\frame01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\14111\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MacType;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files\python\Scripts;D:\Program Files\python;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Program Files\MySQL Utilities 1.3.4\;D:\doc+tool\node\;D:\doc+tool\Git\cmd;C:\Users\14111\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;D:\mingw-w64\bin;C:\Program Files\Java\jdk1.8.0_201\bin;D:\Microsoft VS Code\bin;D:\tomcat\apache-tomcat-8.5.45-windows-x64\apache-tomcat-8.5.45\bin;D:\download\Fiddler;D:\doc+tool\PyCharm 2020.2.4\bin;;D:\doc+tool\PyCharm Community Edition 2020.3.2\bin;;D:\Program Files\mongo\bin;C:\Users\14111\AppData\Local\Microsoft\WindowsApps;D:\doc+tool\apache-maven-3.5.0\bin;D:\Program Files\MySQL Server 5.6\bin;D:\doc+tool\IntelliJ IDEA 2020.1\bin;;C:\Users\14111\AppData\Roaming\npm;D:\doc+tool\DataGrip 2020.1\bin;;D:\doc+tool\android-sdk-windows-appium\platform-tools;D:\doc+tool\android-sdk-windows-appium\build-tools\28.0.3;D:\doc+tool\android-sdk-windows-appium\tools;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.wsn.testcases.BssCase" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: headerName (tried for 8 second(s) with 500 milliseconds interval)"/>
+    <system-out><![CDATA[2022-05-07 10:56:16 INFO  BaseTest:34 - ===========================打开chrome浏览器==============================
+2022-05-07 10:56:16 INFO  BaseTest:58 - 打开URL
+2022-05-07 10:56:17 INFO  BasePage:77 - 已经输入内容[17765472624]
+2022-05-07 10:56:17 INFO  BasePage:77 - 已经输入内容[1q2w3e4R!@]
+2022-05-07 10:56:17 INFO  BasePage:67 - 点击了元素点击登录
+2022-05-07 10:56:18 INFO  BasePage:67 - 点击了元素选择验证码验证
+2022-05-07 10:56:18 INFO  BasePage:67 - 点击了元素发送验证码
+2022-05-07 10:56:18 INFO  BasePage:77 - 已经输入内容[123456]
+2022-05-07 10:56:18 INFO  BasePage:67 - 点击了元素进入系统
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 19794
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651892175.859][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+五月 07, 2022 10:56:16 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.wsn.testcases.BssCase" time="0">
+    <skipped message="expected [林敏1] but found [林敏]"/>
+    <system-out><![CDATA[2022-05-07 10:57:26 INFO  BaseTest:34 - ===========================打开chrome浏览器==============================
+2022-05-07 10:57:26 INFO  BaseTest:58 - 打开URL
+2022-05-07 10:57:27 INFO  BasePage:77 - 已经输入内容[17765472624]
+2022-05-07 10:57:27 INFO  BasePage:77 - 已经输入内容[1q2w3e4R!@]
+2022-05-07 10:57:28 INFO  BasePage:67 - 点击了元素点击登录
+2022-05-07 10:57:28 INFO  BasePage:67 - 点击了元素选择验证码验证
+2022-05-07 10:57:28 INFO  BasePage:67 - 点击了元素发送验证码
+2022-05-07 10:57:28 INFO  BasePage:77 - 已经输入内容[123456]
+2022-05-07 10:57:29 INFO  BasePage:67 - 点击了元素进入系统
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 48393
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651892246.771][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+五月 07, 2022 10:57:26 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.wsn.testcases.BssCase" time="8.457">
+    <failure message="expected [林敏1] but found [林敏]" type="java.lang.AssertionError">java.lang.AssertionError: expected [林敏1] but found [林敏]
+	at com.wsn.testcases.BssCase.loginTest(BssCase.java:30)
+</failure>
+    <system-out><![CDATA[2022-05-07 10:57:37 INFO  BaseTest:34 - ===========================打开chrome浏览器==============================
+2022-05-07 10:57:37 INFO  BaseTest:58 - 打开URL
+2022-05-07 10:57:38 INFO  BasePage:77 - 已经输入内容[17765472624]
+2022-05-07 10:57:38 INFO  BasePage:77 - 已经输入内容[1q2w3e4R!@]
+2022-05-07 10:57:38 INFO  BasePage:67 - 点击了元素点击登录
+2022-05-07 10:57:39 INFO  BasePage:67 - 点击了元素选择验证码验证
+2022-05-07 10:57:39 INFO  BasePage:67 - 点击了元素发送验证码
+2022-05-07 10:57:39 INFO  BasePage:77 - 已经输入内容[123456]
+2022-05-07 10:57:39 INFO  BasePage:67 - 点击了元素进入系统
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 30095
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651892257.196][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+五月 07, 2022 10:57:37 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

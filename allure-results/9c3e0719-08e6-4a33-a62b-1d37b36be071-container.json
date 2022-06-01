@@ -1,0 +1,1 @@
+{"uuid":"9c3e0719-08e6-4a33-a62b-1d37b36be071","name":"frame01","children":["6914030d-d6dc-4b39-8f1b-c2463292be1e"],"befores":[],"afters":[{"name":"deleteAllGoods","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1651718930765,"stop":1651718933068}],"links":[],"start":1651718908698,"stop":1651718933073}
