@@ -7,11 +7,12 @@
   </listeners>
   <test thread-count="5" verbose="0" name="业务(failed)">
     <classes>
-      <class name="com.wsn.testcases.BssCase">
+      <class name="com.wsn.testcases.GoodsToCartCase">
         <methods>
-          <include name="loginTest"/>
+          <include name="deleteAllGoods"/>
+          <include name="toCart"/>
         </methods>
-      </class> <!-- com.wsn.testcases.BssCase -->
+      </class> <!-- com.wsn.testcases.GoodsToCartCase -->
     </classes>
   </test> <!-- 业务(failed) -->
 </suite> <!-- Failed suite [lemonmall] -->

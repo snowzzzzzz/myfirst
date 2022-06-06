@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-lemonmall">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-lemonmall" title="com.wsn.testcases.BssCase" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-lemonmall" title="com.wsn.testcases.GoodsToCartCase" hash-for-method="toCart">toCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-lemonmall -->
@@ -116,12 +116,12 @@
                     <div class="method-list-content skipped suite-lemonmall">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-lemonmall" title="com.wsn.testcases.BssCase" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-lemonmall" title="com.wsn.testcases.GoodsToCartCase" hash-for-method="toCart">toCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-lemonmall" title="com.wsn.testcases.BssCase" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-lemonmall" title="com.wsn.testcases.GoodsToCartCase" hash-for-method="toCart">toCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-lemonmall -->
@@ -139,19 +139,18 @@
           <div class="suite-lemonmall-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.wsn.testcases.BssCase</span>
+              <span class="class-name">com.wsn.testcases.GoodsToCartCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [林敏1] but found [林敏]
-	at com.wsn.testcases.BssCase.loginTest(BssCase.java:30)
-	at com.wsn.listener.TestResultListener.run(TestResultListener.java:28)
+                  <a name="toCart">
+                  </a> <!-- toCart -->
+                  <span class="method-name">toCart</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.wsn.listener.TestResultListener.run(TestResultListener.java:31)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 38 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -160,59 +159,30 @@
           <div class="suite-lemonmall-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.wsn.testcases.BssCase</span>
+              <span class="class-name">com.wsn.testcases.GoodsToCartCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: headerName (tried for 8 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.wsn.common.BasePage.waitElementVisible(BasePage.java:39)
-	at com.wsn.pages.bss.IndexPage.getHeadername(IndexPage.java:24)
-	at com.wsn.testcases.BssCase.loginTest(BssCase.java:29)
-	at com.wsn.listener.TestResultListener.run(TestResultListener.java:28)
+                  <a name="toCart">
+                  </a> <!-- toCart -->
+                  <span class="method-name">toCart</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.wsn.listener.TestResultListener.run(TestResultListener.java:31)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#headerName&quot;}
-  (Session info: chrome=101.0.4951.54)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-COR089L&apos;, ip: &apos;10.0.2.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\14111\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 318434218c9fd33a55aace01df6a210c
-*** Element info: {Using=id, value=headerName}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 38 more
-... Removed 37 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [林敏1] but found [林敏]
-	at com.wsn.testcases.BssCase.loginTest(BssCase.java:30)
-	at com.wsn.listener.TestResultListener.run(TestResultListener.java:28)
+                  <a name="toCart">
+                  </a> <!-- toCart -->
+                  <span class="method-name">toCart</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.wsn.listener.TestResultListener.run(TestResultListener.java:31)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 38 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -234,7 +204,7 @@ Session ID: 318434218c9fd33a55aace01df6a210c
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;业务&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.wsn.testcases.BssCase&quot;/&gt;
+      &lt;class name=&quot;com.wsn.testcases.GoodsToCartCase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- 业务 --&gt;
 &lt;/suite&gt; &lt;!-- lemonmall --&gt;
@@ -276,22 +246,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.wsn.testcases.BssCase')
-data.setCell(0, 3, 72823);
+data.setCell(0, 1, 'toCart')
+data.setCell(0, 2, 'com.wsn.testcases.GoodsToCartCase')
+data.setCell(0, 3, 3636);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.wsn.testcases.BssCase')
-data.setCell(1, 3, 10132);
+data.setCell(1, 1, 'toCart')
+data.setCell(1, 2, 'com.wsn.testcases.GoodsToCartCase')
+data.setCell(1, 3, 1384);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'com.wsn.testcases.BssCase')
-data.setCell(2, 3, 8446);
+data.setCell(2, 1, 'toCart')
+data.setCell(2, 2, 'com.wsn.testcases.GoodsToCartCase')
+data.setCell(2, 3, 1378);
 window.suiteTableData['lemonmall']= { tableData: data, tableDiv: 'times-div-lemonmall'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-lemonmall">
               </div> <!-- times-div-lemonmall -->
             </div> <!-- times-div -->
@@ -317,21 +287,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.wsn.testcases.BssCase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.wsn.testcases.GoodsToCartCase</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginTest</span>
+                <span class="method-name">toCart</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">73004 ms</span>
+                <span class="method-name">toCart</span>
+                <span class="method-start">3874 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginTest</span>
-                <span class="method-start">83141 ms</span>
+                <span class="method-name">toCart</span>
+                <span class="method-start">5258 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteAllGoods</span>
+                <span class="method-start">6656 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

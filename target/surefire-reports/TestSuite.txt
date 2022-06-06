@@ -1,8 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 93.985 s <<< FAILURE! - in TestSuite
-loginTest(com.wsn.testcases.BssCase)  Time elapsed: 8.457 s  <<< FAILURE!
-java.lang.AssertionError: expected [林敏1] but found [林敏]
-	at com.wsn.testcases.BssCase.loginTest(BssCase.java:30)
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 8.856 s <<< FAILURE! - in TestSuite
+toCart(com.wsn.testcases.GoodsToCartCase)  Time elapsed: 1.383 s  <<< FAILURE!
+java.lang.NullPointerException
+
+deleteAllGoods(com.wsn.testcases.GoodsToCartCase)  Time elapsed: 1.454 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.wsn.testcases.GoodsToCartCase.deleteAllGoods(GoodsToCartCase.java:66)
 

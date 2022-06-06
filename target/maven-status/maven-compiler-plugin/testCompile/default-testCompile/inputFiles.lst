@@ -3,13 +3,16 @@ D:\作业\frame01\src\test\java\com\wsn\testcases\BssCase.java
 D:\作业\frame01\src\test\java\com\wsn\pages\mall\GoodsDetailPage.java
 D:\作业\frame01\src\test\java\com\wsn\pages\mall\GoodsListPage.java
 D:\作业\frame01\src\test\java\com\wsn\testcases\GoodsToCartCase.java
+D:\作业\frame01\src\test\java\com\wsn\pages\bss\CustPage.java
 D:\作业\frame01\src\test\java\com\wsn\pages\manage\MLoginPage.java
+D:\作业\frame01\src\test\java\com\wsn\pages\bss\CustCenterPage.java
 D:\作业\frame01\src\test\java\com\wsn\common\BasePage.java
 D:\作业\frame01\src\test\java\com\wsn\listener\RetryListener.java
 D:\作业\frame01\src\test\java\com\wsn\pages\bss\LoginPage.java
 D:\作业\frame01\src\test\java\com\wsn\testcases\testDemo.java
 D:\作业\frame01\src\test\java\com\wsn\pages\mall\CartPage.java
 D:\作业\frame01\src\test\java\com\wsn\common\BaseTest.java
+D:\作业\frame01\src\test\java\com\wsn\pages\bss\ProdSearchPage.java
 D:\作业\frame01\src\test\java\com\wsn\pages\manage\MHomePage.java
 D:\作业\frame01\src\test\java\com\wsn\testcases\LoginTest.java
 D:\作业\frame01\src\test\java\com\wsn\listener\TestngRetry.java
