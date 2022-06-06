@@ -7,7 +7,7 @@
     </listeners>
     <test name="业务">
         <classes>
-            <class name="com.wsn.testcases.BssCase"/>
+            <class name="com.wsn.testcases.GoodsToCartCase"/>
         </classes>
     </test>
 
